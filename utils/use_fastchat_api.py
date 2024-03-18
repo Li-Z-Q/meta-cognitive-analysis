@@ -44,25 +44,10 @@ def get_messages(model_name, worker_addr, message):
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument(
-    #     "--controller-address", type=str, default="http://124.16.138.150:1225"
-    # )
-    # parser.add_argument("--worker-address", type=str, default="http://124.16.138.150:1685")
-    # parser.add_argument("--model-name", type=str, default="")
-    # parser.add_argument("--temperature", type=float, default=0.0)
-    # parser.add_argument("--max-new-tokens", type=int, default=128)
-    # parser.add_argument(
-    #     "--message", type=str, default="Tell me a story with more than 1000 words."
-    # )
-    # args = parser.parse_args()
-
-    # main()
-
     # model_name = "vicuna-7b-v1.3"
     # model_name = "llama-7b"
     model_name = "one-shot"
-    worker_addr = "http://124.16.138.142:1685"
+    worker_addr = "http://XXX.XX.XXX.XXX:XXXX"
     message = "Tell me a story with more than 1000 words."
     
     get_messages(model_name=model_name, worker_addr=worker_addr, message=message)

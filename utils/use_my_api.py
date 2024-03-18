@@ -78,7 +78,7 @@ def get_messages(text, url, model_name, do_sample=False, max_new_tokens=512):
 
 if __name__ == "__main__":
     model_name = "vicuna-7b-v1.3"
-    url = "http://124.16.138.150"
+    url = "http://XXX.XX.XXX.XXX"
     message = "Tell me a story with more than 1000 words."
     # message = "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.\n" + message
     
